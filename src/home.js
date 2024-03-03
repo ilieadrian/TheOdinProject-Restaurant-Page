@@ -6,7 +6,6 @@ function createHome() {
 
     const header = document.createElement('h1');
     header.innerText = 'Thistle & Heather Tavern';
-    
 
     const image = document.createElement('img');
     image.src = RestaurantInterior;
@@ -23,12 +22,12 @@ function createHome() {
             Pair your meal with a fine selection of Scotch whiskies from renowned distilleries across the country, or choose from our curated list of Scottish ales and craft beers. Our knowledgeable staff is always on hand to guide you through our extensive drinks menu, ensuring a truly immersive dining experience.
             <br /><br />
             Whether you're a visitor to Scotland or a local looking for a taste of home, Thistle & Heather Tavern invites you to savor the flavors of this beautiful land in every dish we serve.
-        `;
+    `;
 
     const adressPara = document.createElement('p');
     adressPara.classList.add('adress');
     adressPara.innerHTML = `
-    <span>Adress: </span>Thistle & Heather Tavern, 42 Royal Mile, Edinburgh, EH1 1QN, Scotland
+        <span>Adress: </span>Thistle & Heather Tavern, 42 Royal Mile, Edinburgh, EH1 1QN, Scotland
     `;
 
     container.appendChild(header);
