@@ -1,14 +1,13 @@
-import RestaurantInterior from './assets/restaurant-interior.jpg';
+import restaurantInterior from './assets/restaurant-interior.jpg';
 
 function createHome() {
     const container = document.getElementById('content');
-    console.log("hello from create home")
 
     const header = document.createElement('h1');
     header.innerText = 'Thistle & Heather Tavern';
 
     const image = document.createElement('img');
-    image.src = RestaurantInterior;
+    image.src = restaurantInterior;
 
     const span = document.createElement('span');
     span.innerText = 'Embark on a Gastronomic Journey at Thistle & Heather Tavern: Where Scottish Tradition Meets Culinary Innovation!';
