@@ -51,4 +51,22 @@ span {
     font-size: 1.1rem;
     font-weight: 600;
     font-style: normal;
+    display: inline-block;
+}
+
+h2 {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.menu-item {
+    color: black;
+    font-size: 1.1rem;
+    font-weight: 600;
+    font-style: normal;
+    display: inline;
+}
+
+p {
+    display: inline;
 }

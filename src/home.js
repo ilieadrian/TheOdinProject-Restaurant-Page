@@ -26,7 +26,7 @@ function createHome() {
     const adressPara = document.createElement('p');
     adressPara.classList.add('adress');
     adressPara.innerHTML = `
-        <span>Adress: </span>Thistle & Heather Tavern, 42 Royal Mile, Edinburgh, EH1 1QN, Scotland
+        <span>Adress: </span> Thistle & Heather Tavern, 42 Royal Mile, Edinburgh, EH1 1QN, Scotland
     `;
 
     container.appendChild(header);
